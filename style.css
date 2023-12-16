@@ -1,0 +1,137 @@
+
+/* Header */
+
+header {
+    background-color: #f1f1f1;
+    padding: .5rem 0;
+    background-image: url(./img/foto-aerea-de-um-rio-cercado-por-ilhas-cobertas-de-vegetacao-sob-a-luz-solar_181624-6504.avif);
+  background-size: cover;
+  background-position: center;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  
+  header nav {
+    text-align: center;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header nav ul li {
+    display: inline-block;
+    margin-right: .5rem;
+  }
+  
+  header nav ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  header nav ul li a:hover {
+    color: #f00;
+  }
+  
+  /* Main */
+  
+  main {
+    padding: .5rem;
+  }
+  
+  main h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  main p {
+    font-size: .8rem;
+  }
+  
+  main ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  main ul li {
+    margin-bottom: .5rem;
+  }
+  
+  main ul li a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  main ul li a:hover {
+    color: #f00;
+  }
+  
+  /* Footer */
+  
+  footer {
+    background-color: #635f5f;
+    padding: .5rem 0;
+    position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  }
+
+  footer p {
+    text-align: center;
+  }
+  
+  /* Media queries */
+  
+  @media (max-width: 768px) {
+    header nav ul {
+      text-align: left;
+    }
+  
+    header nav ul li {
+      display: block;
+      margin-bottom: .5rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+
+  body {
+    min-height: 100vh;
+    min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    height: 100vh;
+    background-image: url("./img/padrao-abstrato-no-lado-esquerdo-da-foto-na-distancia-em-direcao-ao-papel-de-parede-de-fundo-direito_830188-2226.avif");
+  }
+
+  #container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.5rem;
+  }
+
